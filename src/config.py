@@ -5,7 +5,6 @@ target_labels: The true labelling of time slices, used for classification.
 total_time: Number of time slices in the acquisition.
 """
 
-
 target_labels = (
     ["rest"] * 3
     + ["beat"] * 13
@@ -26,4 +25,7 @@ target_labels = (
     + ["rest"] * 7
 )
 
-total_time = len(target_labels)
+# total_time = len(target_labels)
+
+# print(str(total_time))
+# ⇒ 210
